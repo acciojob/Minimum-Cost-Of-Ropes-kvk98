@@ -23,7 +23,7 @@ function calculateMinCost() {
   // Get the input element and its value
 	let form = document.getElementById("form");
   let input = document.getElementById("rope-lengths");
-  let arrayString = input.value.split(",");
+  let arrayString = input.value.split(", ");
   
   // Convert the input string into an array of numbers
   let arrayNum = arrayString.map(Number);
