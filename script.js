@@ -75,7 +75,7 @@ function calculateMinCost() {
 			return cost;
 		}
 		else {
-			sum = inputArray[0] + inputArray[1];
+			sum = +inputArray[0] + +inputArray[1];
 			inputArray.shift();
 			inputArray.shift();
 			inputArray.unshift(sum);
